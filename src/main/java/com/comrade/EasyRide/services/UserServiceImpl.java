@@ -1,11 +1,11 @@
-package com.comrade.QuickRide.services;
+package com.comrade.EasyRide.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.comrade.QuickRide.dao.UserDao;
-import com.comrade.QuickRide.entities.Coordinate;
-import com.comrade.QuickRide.entities.NullUser;
-import com.comrade.QuickRide.entities.User;
+import com.comrade.EasyRide.dao.UserDao;
+import com.comrade.EasyRide.entities.Coordinate;
+import com.comrade.EasyRide.entities.NullUser;
+import com.comrade.EasyRide.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

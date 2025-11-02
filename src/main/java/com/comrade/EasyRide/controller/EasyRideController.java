@@ -1,18 +1,18 @@
-package com.comrade.QuickRide.controller;
+package com.comrade.EasyRide.controller;
 
 import java.util.List;
 
-import com.comrade.QuickRide.entities.CabDriver;
-import com.comrade.QuickRide.entities.Coordinate;
-import com.comrade.QuickRide.entities.User;
-import com.comrade.QuickRide.ride.Validator.RideValidator;
-import com.comrade.QuickRide.services.DriverServiceImpl;
-import com.comrade.QuickRide.services.UserServiceImpl;
+import com.comrade.EasyRide.entities.CabDriver;
+import com.comrade.EasyRide.entities.Coordinate;
+import com.comrade.EasyRide.entities.User;
+import com.comrade.EasyRide.ride.Validator.RideValidator;
+import com.comrade.EasyRide.services.DriverServiceImpl;
+import com.comrade.EasyRide.services.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class QuickRideController {
+public class EasyRideController {
 
 	@Autowired
 	UserServiceImpl userService;

@@ -1,13 +1,13 @@
-package com.comrade.QuickRide;
+package com.comrade.EasyRide;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuickRideApplication {
+public class EasyRideApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuickRideApplication.class, args);
+		SpringApplication.run(EasyRideApplication.class, args);
 	}
 
 }

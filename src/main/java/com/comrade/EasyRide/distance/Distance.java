@@ -1,6 +1,6 @@
-package com.comrade.QuickRide.distance;
+package com.comrade.EasyRide.distance;
 
-import com.comrade.QuickRide.entities.Coordinate;
+import com.comrade.EasyRide.entities.Coordinate;
 
 public class Distance {
 	

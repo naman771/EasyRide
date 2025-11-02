@@ -1,7 +1,7 @@
-package com.comrade.QuickRide.bill;
+package com.comrade.EasyRide.bill;
 
 
-import com.comrade.QuickRide.entities.Coordinate;
+import com.comrade.EasyRide.entities.Coordinate;
 
 public class BillCalculator {
 	public static int calculateBill(Coordinate location, Coordinate destination) {

@@ -3,7 +3,7 @@
 !define RECTANGLE class
 
 ' Define the classes
-RECTANGLE QuickRideController {
+RECTANGLE EasyRideController {
     + load() : void
     + addUser(user: User) : void
     + removeUser(user: User) : void
@@ -58,11 +58,11 @@ RECTANGLE Coordinate {
 }
 
 ' Relationships
-QuickRideController --> UserServiceImpl : Uses
-QuickRideController --> DriverServiceImpl : Uses
-QuickRideController --> RideValidator : Uses
-QuickRideController --> CabDriver : Interacts with
-QuickRideController --> User : Interacts with
+EasyRideController --> UserServiceImpl : Uses
+EasyRideController --> DriverServiceImpl : Uses
+EasyRideController --> RideValidator : Uses
+EasyRideController --> CabDriver : Interacts with
+EasyRideController --> User : Interacts with
 
 UserServiceImpl --> User : Manages
 DriverServiceImpl --> CabDriver : Manages

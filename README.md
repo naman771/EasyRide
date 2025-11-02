@@ -1,5 +1,5 @@
-# QuickRide
-QuickRide cab booking application created using SpringBoot, Spring Jpa and Mysql.
+# EasyRide
+EasyRide cab booking application created using SpringBoot, Spring Jpa and Mysql.
 
 Available APIs
 Load Initial Data

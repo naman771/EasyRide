@@ -1,10 +1,10 @@
-package com.comrade.QuickRide;
+package com.comrade.EasyRide;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuickRideApplicationTests {
+class EasyRideApplicationTests {
 
 	@Test
 	void contextLoads() {

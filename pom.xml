@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.comrade</groupId>
-	<artifactId>QuickRide</artifactId>
+	<artifactId>EasyRide</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>QuickRide</name>
+	<name>EasyRide</name>
 	<description>Cab booking Application</description>
 	<url/>
 	<licenses>

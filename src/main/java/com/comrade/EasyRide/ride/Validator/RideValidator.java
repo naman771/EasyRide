@@ -1,11 +1,10 @@
-package com.comrade.QuickRide.ride.Validator;
+package com.comrade.EasyRide.ride.Validator;
 
-import com.comrade.QuickRide.bill.BillCalculator;
-import com.comrade.QuickRide.dao.DriverDao;
-import com.comrade.QuickRide.distance.Distance;
-import com.comrade.QuickRide.entities.CabDriver;
-import com.comrade.QuickRide.entities.User;
-import com.comrade.QuickRide.services.DriverServiceImpl;
+import com.comrade.EasyRide.bill.BillCalculator;
+import com.comrade.EasyRide.distance.Distance;
+import com.comrade.EasyRide.entities.CabDriver;
+import com.comrade.EasyRide.entities.User;
+import com.comrade.EasyRide.services.DriverServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

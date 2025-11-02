@@ -1,6 +1,6 @@
-package com.comrade.QuickRide.dao;
+package com.comrade.EasyRide.dao;
 
-import com.comrade.QuickRide.entities.CabDriver;
+import com.comrade.EasyRide.entities.CabDriver;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
